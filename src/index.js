@@ -12,7 +12,7 @@ import { CartProvider } from './hooks/useCart';
 const root = createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/dhiya-app">
       <AuthProvider>
         <CartProvider>
           <App />
